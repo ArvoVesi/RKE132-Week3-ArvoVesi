@@ -1,0 +1,15 @@
+﻿Console.WriteLine("Enter a number: ");
+int userNum = Convert.ToInt32(Console.ReadLine());
+
+// Kas kasutaja arv on paarus või paaritu
+
+int result = userNum % 2;
+
+if (result != 0) // != Ei ole võrdne
+{
+    Console.WriteLine("User number is odd.");
+}
+else
+{
+    Console.WriteLine("User number is even.");
+}
